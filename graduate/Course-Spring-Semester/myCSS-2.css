@@ -1,0 +1,97 @@
+/* Generic Selectors */ 
+
+      body { 
+
+    font-family: Georgia, "Times New Roman", Times, serif;
+
+    font-size: 15px; 
+
+    color: #333333;
+
+    background-color: #F9F9F9; 
+ 
+    } 
+
+
+    p { 
+
+    width: 100%; 
+    
+     line-height: 120%; 
+
+    }
+   
+     li {
+
+    list-style-type: disk; 
+
+    line-height: 150%; 
+
+    } 
+
+    h1 { 
+ 
+    font-family: Georgia, "Times New Roman", Times, serif; 
+
+    font-size: 22px; 
+
+    font-weight: bold; 
+
+    color: #3333cc;
+
+    } 
+
+
+    
+    h2{ 
+
+    font-family: "COMIC SANS MS", serif; 
+
+    font-size: 23px;
+
+   
+
+    color: #000000; 
+
+   
+
+    } 
+
+    
+    h3 { 
+
+    font-family: Georgia, "Times New Roman", Times, serif; 
+    font-size: 20px;
+
+    color: #000000; 
+
+    } 
+    
+     h4{ 
+ 
+    font-family: Georgia, "Times New Roman", Times, serif; 
+
+    font-size: 18px; 
+
+        color: #3333cc;
+
+    } 
+
+ 
+    /************************* ID's *************************/ 
+    
+    #centerDoc { 
+    
+    padding: 20px 30px 60px 40px; /*top right bottom left*/
+    
+    background: #ffffff;
+    margin: 0 auto;
+    width: 760px; 
+    }
+    
+
+img.floatRight { 
+    float: right; 
+    padding: 28px 20px 0px 0px; /*top right bottom left*/
+}
+    

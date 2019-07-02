@@ -1,0 +1,95 @@
+/* Generic Selectors */ 
+
+      body { 
+
+    font-family: "\5B8B\4F53";
+
+    font-size: 15px; 
+
+    color: #333333;
+
+    background-color: #F9F9F9; 
+       line-height: 150%; 
+ 
+    } 
+
+
+    p { 
+
+    width: 100%; 
+    
+    }
+   
+     li {
+
+    list-style-type: disk; 
+
+    line-height: 550%; 
+
+    } 
+
+    h1 { 
+ 
+    font-family: Georgia, "Times New Roman", Times, serif; 
+
+    font-size: 22px; 
+
+    font-weight: bold; 
+
+    color: #3333cc;
+
+    } 
+
+
+    
+    h2{ 
+
+    font-family: "COMIC SANS MS", serif; 
+
+    font-size: 23px;
+
+   
+
+    color: #000000; 
+
+   
+
+    } 
+
+    
+    h3 { 
+
+    font-family: Georgia, "Times New Roman", Times, serif; 
+    font-size: 20px;
+
+    color: #000000; 
+
+    } 
+    
+     h4{ 
+ 
+    font-family: "\6977\4F53";
+    font-size: 18px; 
+
+        color: #3333cc;
+
+    } 
+
+ 
+    /************************* ID's *************************/ 
+    
+    #centerDoc { 
+    
+    padding: 20px 30px 60px 40px; /*top right bottom left*/
+    
+    background: #ffffff;
+    margin: 0 auto;
+    width: 760px; 
+    }
+    
+
+img.floatRight { 
+    float: right; 
+    padding: 28px 20px 0px 0px; /*top right bottom left*/
+}
+    
