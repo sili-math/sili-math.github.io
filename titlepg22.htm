@@ -6,6 +6,17 @@
 <base target="_self">
 </head>
 
+<script>
+setcookie('param_cookie',0,10);
+function body_onload()
+{
+    if(0 == getcookie('param_cookie')){
+        setcookie("param_cookie",1,10);
+        window.location.reload(true); 
+    }
+}
+</script>
+
 <body background="wave.jpg">
 
 <table border="0" cellpadding="5">
@@ -27,7 +38,7 @@
 			<td><font color="#FF9933">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			</font> </td>
 			<td><b><font color="#FFCC66" face="Comic Sans MS">
-			<a target="bottom" href="researchpage.htm" onclick="setTimeout(location.reload.bind(location), 3)"><font color="#FFCC66">
+			<a target="bottom" href="researchpage.htm" onload="body_onload()"><font color="#FFCC66">
 			Research</font></a></font></b></td>
 			<td><font color="#FFCC66">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			</font> </td>
