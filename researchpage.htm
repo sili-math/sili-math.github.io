@@ -3,13 +3,25 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-<meta http-equiv="refresh" content="1000">
-
 <title>Research</title>
 <base target="_self">
 </head>
 
-<body background="bggrey.jpg" >
+<body background="bggrey.jpg"  onload="body_onload()">
+
+<script language=JavaScript>
+   setcookie('param_cookie',0,10);
+   function body_onload()
+{
+    if(0 == getcookie('param_cookie')){
+        setcookie("param_cookie",1,10);
+        window.location.reload(true); 
+    }
+}
+————————————————
+版权声明：本文为CSDN博主「dlfgh」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/sinat_29891353/article/details/78787918
+</script>
 
 <p> 
 I work in the field of mathematical physics and am interested in algebraic and geometric aspects of quantum field theory and string theory.
